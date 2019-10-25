@@ -1,0 +1,160 @@
+/*Import Normalize CSS*/
+@import "normalize.css";
+
+/*Import Google Font*/
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100&display=swap');
+
+html{
+scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  }
+
+
+.container{
+  max-width: 1080px;
+  margin:auto;
+}
+
+
+.p1{padding: 1em}
+
+.p2{padding: 2em}
+
+.p3{padding: 3em}
+.p4{padding: 4em}
+
+.m1{margin: 1em}
+
+.m2{margin: 2em}
+
+.m3{margin: 3em}
+
+.mx1{
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.my1{
+  margin-top: 1em;
+  margin-bottom: 1em
+}
+
+.mx2{
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.my2{
+  margin-top: 2em;
+  margin-bottom: 2em
+}
+
+.mx3{
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.my3{
+  margin-top: 3em;
+  margin-bottom: 3em
+}
+
+
+#logo{
+  float:left;
+}
+nav{
+  float:right;
+  text-align: right;
+  font-weight: 400;
+}
+nav a:hover{
+  color:black;
+
+}
+ a{
+   color: #00B798;
+ }
+
+#banner h1, #banner h2{
+  text-align: center;
+  color:white;
+}
+
+#banner{
+  background-image: url(../img/leaves.jpg);
+  background-position: center;
+  background-size: contain;
+  clear:both;
+}
+h1{
+  font-size: 4em;
+}
+h2{
+  font-size: 3em;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+
+}
+#about {
+  text-align: center;
+
+}
+#about img{
+  border-radius: 150px;
+  height:200px;
+}
+
+#about section{
+  background-color: lightgrey;
+  color:white;
+  border-radius: 5px;
+}
+
+footer{
+  background-color: #00B798;
+  color:white;
+
+}
+
+footer a, footer a:visited{
+  text-decoration: none;
+  color:white;
+}
+
+footer a:hover{
+  text-decoration: none;
+  color: grey;
+}
+
+footer ul li{
+  list-style: none;
+}
+
+footer ul {
+  float:left;
+}
+
+footer img{
+  height:25px;
+}
+
+
+
+#socialmedia{
+  float:right
+}
+
+form input{
+  padding: 10px;
+
+}
+footer{
+
+}
