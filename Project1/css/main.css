@@ -118,9 +118,14 @@ nav ul li{
 
 }
 
-#about{
-  background-color: lightgrey;
+#about > h2{
+  text-align: left;
+  background-color: #00B798;
   color:white;
+  padding:10px; 
+}
+
+#about{
   border-radius: 5px;
   float:left;
 
@@ -181,7 +186,9 @@ footer img{
 }
 
 .portfolioimg {
-  width:250px;
+  width:300px;
+  margin: 15px;
+  text-align: center;
 }
 input, select, textarea{
   width: 100%;
