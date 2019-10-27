@@ -79,6 +79,10 @@ nav a:hover{
    color: #00B798;
  }
 
+ a:hover{
+   color: black;
+   font-weight: 300;
+ }
 #banner h1, #banner h2{
   text-align: center;
   color:white;
@@ -92,9 +96,12 @@ nav a:hover{
 }
 h1{
   font-size: 4em;
+  font-weight: 300;
+  text-align: center;
 }
 h2{
   font-size: 3em;
+  text-align: center;
 }
 
 nav ul li{
@@ -102,19 +109,21 @@ nav ul li{
   display: inline-block;
 
 }
-#about {
-  text-align: center;
-
-}
+/*weird alignment glitch happening*/
 #about img{
   border-radius: 150px;
   height:200px;
+  float:left;
+
+
 }
 
-#about section{
+#about{
   background-color: lightgrey;
   color:white;
   border-radius: 5px;
+  float:left;
+
 }
 
 footer{
@@ -148,13 +157,56 @@ footer img{
 
 
 #socialmedia{
-  float:right
-}
-
-form input{
-  padding: 10px;
+  float:right;
 
 }
+
+#socialmedia img{
+  padding-right: 25px;
+}
+
+#portfolio{
+  clear:both;
+  }
+
+.portfoliocontainer{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  align-content: center;
+
+
+}
+
+.portfolioimg {
+  width:250px;
+}
+input, select, textarea{
+  width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #00B798;
+}
+
+
 footer{
-
+clear:both;
+margin-top: 200px;
 }
